@@ -10,7 +10,7 @@ function Count() {
     }
   return (
     <div>
-        <h1><span onClick={()=> setCount(count--)}>-</span> {count} <span onClick={()=> setCount(count++)}>+</span></h1>
+        <h1><span onClick={increment}>-</span> {count} <span onClick={decrement}>+</span></h1>
     </div>
   )
 }
