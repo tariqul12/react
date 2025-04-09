@@ -16,13 +16,8 @@ const Home = ({name, age, address}) => {
       <Link to="/about">About</Link> <br />
       <Link to="/contact">Contact</Link> <br />
       <Link to="/profile">Profile</Link> <br />
-      {/* <p>Programer List:</p>
-      <h3>Alamin</h3>
-      <Skills />
-      <h3>Tariqul</h3>
-      <Skills />
-      <h3>Sakir</h3>
-      <Skills /> */}
+      <Link to="/parents">Parents</Link> <br />
+      <Link to="/state">State</Link> <br />
     </div>
   );
 };
